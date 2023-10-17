@@ -1,0 +1,64 @@
+const age = null
+
+
+// console.log(typeof age)
+// console.log(typeof(age))
+
+let valueInNumber = Number(age)
+// console.log(typeof valueInNumber)
+// console.log(valueInNumber)
+
+
+//"33" = 33
+// "33abc" = NaN
+// true = 1 ,false = 0
+// null =0
+// undefined = NaN
+// "abc" = NaN
+
+
+// on conversion to a boolean value 
+//"abc"=true, ""=false
+// 1=true , 0 = false
+
+
+let someNumber = 33
+let someString = String(someNumber)
+// console.log(someString)
+// console.log(typeof someString)
+
+
+
+/*******************Operations*********************/
+
+let value = 3
+let negValue = -value
+//console.log(negValue)
+// console.log(2*2)
+// console.log(2+2)
+// console.log(2-2)
+// console.log(2 /2)
+// console.log(2**2)
+// console.log(2%2)
+
+let str1 = "simmi"
+let str2 = "deol"
+
+let str3 = str1+str2
+//console.log(str3)
+
+// console.log("1"+23);
+// console.log("1"+2+4)
+// console.log(1+3+"2")
+
+
+// console.log(+true)  // provides 1 as o/p 
+// console.log(true+);  // shows error
+
+// console.log( + "")  =>0
+
+let gameCounter = 25
+ gameCounter++;
+ console.log(gameCounter);
+ ++gameCounter
+ console.log(gameCounter++);
